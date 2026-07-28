@@ -1,0 +1,41 @@
+task_id,tier,model,sandbox_mode,passed,timed_out,runtime_s,error
+HumanEval/41,cheap,openai/gpt-oss-20b,docker,False,False,0.41,"Traceback (most recent call last): |   File ""/home/runner/prog.py"", line 16, in <module> |     check(car_race_collision) |           ^^^^^^^^^^^^^^^^^^ | NameError: name 'car_race_collision' is not defined | "
+HumanEval/41,expensive,openai/gpt-oss-120b,docker,True,False,0.37,
+HumanEval/54,cheap,openai/gpt-oss-20b,docker,True,False,0.35,
+HumanEval/54,expensive,openai/gpt-oss-120b,docker,True,False,0.31,
+HumanEval/38,cheap,openai/gpt-oss-20b,docker,False,False,0.37," (most recent call last): |   File ""/home/runner/prog.py"", line 25, in <module> |     check(decode_cyclic) |   File ""/home/runner/prog.py"", line 21, in check |     encoded_str = encode_cyclic(str) |                   ^^^^^^^^^^^^^ | NameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'? | "
+HumanEval/38,expensive,openai/gpt-oss-120b,docker,False,False,0.4," (most recent call last): |   File ""/home/runner/prog.py"", line 27, in <module> |     check(decode_cyclic) |   File ""/home/runner/prog.py"", line 23, in check |     encoded_str = encode_cyclic(str) |                   ^^^^^^^^^^^^^ | NameError: name 'encode_cyclic' is not defined. Did you mean: 'decode_cyclic'? | "
+HumanEval/29,cheap,openai/gpt-oss-20b,docker,True,False,0.38,
+HumanEval/29,expensive,openai/gpt-oss-120b,docker,False,False,0.31,"Traceback (most recent call last): |   File ""/home/runner/prog.py"", line 1, in <module> |     def filter_by_prefix(strings: List[str], prefix: str) -> List[str]: |                                   ^^^^ | NameError: name 'List' is not defined. Did you mean: 'list'? | "
+HumanEval/86,cheap,openai/gpt-oss-20b,docker,True,False,0.35,
+HumanEval/86,expensive,openai/gpt-oss-120b,docker,True,False,0.39,
+HumanEval/151,cheap,openai/gpt-oss-20b,docker,True,False,0.37,
+HumanEval/151,expensive,openai/gpt-oss-120b,docker,True,False,0.44,
+HumanEval/44,cheap,openai/gpt-oss-20b,docker,True,False,0.47,
+HumanEval/44,expensive,openai/gpt-oss-120b,docker,True,False,0.49,
+HumanEval/134,cheap,openai/gpt-oss-20b,docker,True,False,0.42,
+HumanEval/134,expensive,openai/gpt-oss-120b,docker,True,False,0.47,
+HumanEval/159,cheap,openai/gpt-oss-20b,docker,True,False,0.43,
+HumanEval/159,expensive,openai/gpt-oss-120b,docker,True,False,0.4,
+HumanEval/149,cheap,openai/gpt-oss-20b,docker,True,False,0.39,
+HumanEval/149,expensive,openai/gpt-oss-120b,docker,True,False,0.37,
+HumanEval/63,cheap,openai/gpt-oss-20b,docker,True,False,0.32,
+HumanEval/63,expensive,openai/gpt-oss-120b,docker,True,False,0.34,
+HumanEval/80,cheap,openai/gpt-oss-20b,docker,True,False,0.41,
+HumanEval/80,expensive,openai/gpt-oss-120b,docker,True,False,0.51,
+HumanEval/71,cheap,openai/gpt-oss-20b,docker,True,False,0.4,
+HumanEval/71,expensive,openai/gpt-oss-120b,docker,True,False,0.36,
+HumanEval/36,cheap,openai/gpt-oss-20b,docker,True,False,0.4,
+HumanEval/36,expensive,openai/gpt-oss-120b,docker,True,False,0.31,
+HumanEval/9,cheap,openai/gpt-oss-20b,docker,True,False,0.38,
+HumanEval/9,expensive,openai/gpt-oss-120b,docker,False,False,0.33,"Traceback (most recent call last): |   File ""/home/runner/prog.py"", line 1, in <module> |     def rolling_max(numbers: List[int]) -> List[int]: |                              ^^^^ | NameError: name 'List' is not defined. Did you mean: 'list'? | "
+HumanEval/106,cheap,openai/gpt-oss-20b,docker,True,False,0.33,
+HumanEval/106,expensive,openai/gpt-oss-120b,docker,False,False,0.34,"  File ""/home/runner/prog.py"", line 9 |     for i |          ^ | SyntaxError: invalid syntax | "
+HumanEval/118,cheap,openai/gpt-oss-20b,docker,True,False,0.32,
+HumanEval/118,expensive,openai/gpt-oss-120b,docker,True,False,0.37,
+HumanEval/141,cheap,openai/gpt-oss-20b,docker,True,False,0.34,
+HumanEval/141,expensive,openai/gpt-oss-120b,docker,True,False,0.36,
+HumanEval/1,cheap,openai/gpt-oss-20b,docker,True,False,0.38,
+HumanEval/1,expensive,openai/gpt-oss-120b,docker,True,False,0.42,
+HumanEval/81,cheap,openai/gpt-oss-20b,docker,True,False,0.3,
+HumanEval/81,expensive,openai/gpt-oss-120b,docker,True,False,0.36,
